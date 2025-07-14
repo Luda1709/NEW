@@ -1,6 +1,6 @@
 
 MY FIRST COMMIT
-Hello! World has been changed!
+Hello! World has been changed
 
 My new changes!
 
