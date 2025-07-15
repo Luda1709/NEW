@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  Conflict!
+=======
+Merge Conflict!
+>>>>>>> d83446f (Merge conflict)
 MY FIRST COMMIT
 
 Hello! 
