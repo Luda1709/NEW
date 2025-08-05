@@ -1,0 +1,4 @@
+const text = "Hello world, BBBccc, aaAAaa, testtextwithouta";
+const result = text.match(/[^Aa]{6,}/g);
+
+console.log(result);
