@@ -1,0 +1,1364 @@
+{
+	"info": {
+		"_postman_id": "9c4dd7a7-d98b-4563-a41c-feb236b4b762",
+		"name": "FirstCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13693756",
+		"_collection_link": "https://pelicans.postman.co/workspace/HillelWorkspace~d4ecbe57-98e8-42c9-a8aa-fc627943de27/collection/13693756-9c4dd7a7-d98b-4563-a41c-feb236b4b762?action=share&source=collection_link&creator=13693756"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 21:06:09 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"152-ApQgGHL6RKwaebFlrPCYPBO1xHg\""
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+						},
+						{
+							"key": "Ratelimit-Limit",
+							"value": "100"
+						},
+						{
+							"key": "Ratelimit-Policy",
+							"value": "100;w=60"
+						},
+						{
+							"key": "Ratelimit-Remaining",
+							"value": "98"
+						},
+						{
+							"key": "Ratelimit-Reset",
+							"value": "60"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=m3F%2F2BW5HAYltY93ZCcNyJSBwpz%2B7Hfo3Lco0jBfpgo%3D\\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\\u0026ts=1754943297\"}],\"max_age\":3600}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=\"https://nel.heroku.com/reports?s=m3F%2F2BW5HAYltY93ZCcNyJSBwpz%2B7Hfo3Lco0jBfpgo%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1754943297\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 heroku-router"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "f4a57382-776b-aa6b-4b57-f8874c81c01e"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Age",
+							"value": "3071"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=14400"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "HIT"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "96dab1f9afbd15f8-WAW"
+						},
+						{
+							"key": "server-timing",
+							"value": "cfL4;desc=\"?proto=TCP&rtt=19069&min_rtt=18006&rtt_var=6934&sent=17&recv=16&lost=0&retrans=0&sent_bytes=4988&recv_bytes=910&delivery_rate=315977&cwnd=215&unsent_bytes=0&cid=ef87bb2a815f99b8&ts=10492&x=0\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"id\": 2,\n        \"email\": \"janet.weaver@reqres.in\",\n        \"first_name\": \"Janet\",\n        \"last_name\": \"Weaver\",\n        \"avatar\": \"https://reqres.in/img/faces/2-image.jpg\"\n    },\n    \"support\": {\n        \"url\": \"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral\",\n        \"text\": \"Tired of writing endless social media content? Let Content Caddy generate it for you.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "SignUp",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let mail = pm.variables.replaceIn(\"{{$randomEmail}}\");",
+							"pm.collectionVariables.set(\"random_mail\", mail);",
+							"pm.collectionVariables.set(\"password\", \"Qwerty12345\")"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"name\": \"{{$randomFirstName}}\",\n\n\"lastName\": \"{{$randomLastName}}\",\n\n\"email\": \"{{random_mail}}\",\n\n\"password\": \"{{password}}\",\n\n\"repeatPassword\": \"{{password}}\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{myUrl}}auth/signup",
+					"host": [
+						"{{myUrl}}auth"
+					],
+					"path": [
+						"signup"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://qauto2.forstudy.space/api/auth/signup' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"name\": \"Liudmyla\",\n  \"lastName\": \"Bulana\",\n  \"email\": \"test@test.com\",\n  \"password\": \"Qwerty12345\",\n  \"repeatPassword\": \"Qwerty12345\"\n}'"
+			},
+			"response": [
+				{
+					"name": "SignUp",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n\"name\": \"{{$randomFirstName}}\",\n\n\"lastName\": \"{{$randomLastName}}\",\n\n\"email\": \"{{random_mail}}\",\n\n\"password\": \"{{password}}\",\n\n\"repeatPassword\": \"{{password}}\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myUrl}}auth/signup",
+							"host": [
+								"{{myUrl}}auth"
+							],
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 19:52:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "113"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"71-WEOeUUMAYQ5RKCgMFRtplqjcjs0\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "sid=s%3AKbgagpeLKg63Y4vaUkDr0u1hUJUyUFcB.2i%2BEPiA9%2F2BjGFNxwuhxFaqdeXWWhottWgJukCuLFJI; Domain=.forstudy.space; Path=/; Expires=Tue, 12 Aug 2025 19:52:28 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"userId\": 115490,\n        \"photoFilename\": \"default-user.png\",\n        \"distanceUnits\": \"km\",\n        \"currency\": \"usd\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "SignIn",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"email\": \"{{random_mail}}\",\n\n\"password\": \"{{password}}\",\n\"remember\": false\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{myUrl}}auth/signin",
+					"host": [
+						"{{myUrl}}auth"
+					],
+					"path": [
+						"signin"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://qauto2.forstudy.space/api/auth/signin' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"email\": \"test@test.com\",\n  \"password\": \"Qwerty12345\",\n  \"remember\": false\n}'"
+			},
+			"response": [
+				{
+					"name": "SignIn",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n\"email\": \"{{random_mail}}\",\n\n\"password\": \"{{password}}\",\n\"remember\": false\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myUrl}}auth/signin",
+							"host": [
+								"{{myUrl}}auth"
+							],
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 19:52:34 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "30"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "29"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1754941980"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"71-WEOeUUMAYQ5RKCgMFRtplqjcjs0\""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"userId\": 115490,\n        \"photoFilename\": \"default-user.png\",\n        \"distanceUnits\": \"km\",\n        \"currency\": \"usd\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "UpdateUserProfile",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"photo\": \"user-1621352948859.jpg\",\n  \"name\": \"Luda\",\n  \"lastName\": \"Grunich\",\n  \"dateBirth\": \"2021-03-17T15:21:05.000Z\",\n  \"country\": \"Ukraine\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{myUrl}}users/profile",
+					"host": [
+						"{{myUrl}}users"
+					],
+					"path": [
+						"profile"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\n  'https://qauto2.forstudy.space/api/users/profile' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"photo\": \"user-1621352948859.jpg\",\n  \"name\": \"John\",\n  \"lastName\": \"Dou\",\n  \"dateBirth\": \"2021-03-17T15:21:05.000Z\",\n  \"country\": \"Ukraine\"\n}'\n"
+			},
+			"response": [
+				{
+					"name": "UpdateUserProfile",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"photo\": \"user-1621352948859.jpg\",\n  \"name\": \"Luda\",\n  \"lastName\": \"Grunich\",\n  \"dateBirth\": \"2021-03-17T15:21:05.000Z\",\n  \"country\": \"Ukraine\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myUrl}}users/profile",
+							"host": [
+								"{{myUrl}}users"
+							],
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 19:50:40 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a9-UPwGT9PrtHJwoTReNl00+QFjpH8\""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"userId\": 115489,\n        \"photoFilename\": \"default-user.png\",\n        \"name\": \"Luda\",\n        \"lastName\": \"Grunich\",\n        \"dateBirth\": \"2021-03-17T15:21:05.000Z\",\n        \"country\": \"Ukraine\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "UserProfile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{myUrl}}users/profile",
+					"host": [
+						"{{myUrl}}users"
+					],
+					"path": [
+						"profile"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\n  'https://qauto2.forstudy.space/api/users/profile' \\\n  -H 'accept: application/json'"
+			},
+			"response": []
+		},
+		{
+			"name": "ChangePassword",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set(\"New_Password\", \"Ludik1709\")",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"oldPassword\": \"Qwerty12345\",\n  \"password\": \"Ludik1709\",\n  \"repeatPassword\": \"Ludik1709\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto2.forstudy.space/api/users/password",
+					"protocol": "https",
+					"host": [
+						"qauto2",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"users",
+						"password"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\n  'https://qauto2.forstudy.space/api/users/password' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"oldPassword\": \"FooBar12345\",\n  \"password\": \"Qwerty12345\",\n  \"repeatPassword\": \"Qwerty12345\"\n}'"
+			},
+			"response": [
+				{
+					"name": "ChangePassword",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"oldPassword\": \"Qwerty12345\",\n  \"password\": \"Ludik1709\",\n  \"repeatPassword\": \"Ludik1709\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://qauto2.forstudy.space/api/users/password",
+							"protocol": "https",
+							"host": [
+								"qauto2",
+								"forstudy",
+								"space"
+							],
+							"path": [
+								"api",
+								"users",
+								"password"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 21:30:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"28-ad3VgTDrVNFjhFzwonrzLmN6T+A\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "sid=s%3AhgavbJXBirZVM3ha9XXSnHDRYto7RKE2.E8qo5XWR2vOK70B2PJ8vefGjRQIaJ89tMvlcKyci5Uo; Domain=.forstudy.space; Path=/; Expires=Tue, 12 Aug 2025 21:30:05 GMT"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"userId\": 115500\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "LogOut",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{myUrl}}/auth/logout",
+					"host": [
+						"{{myUrl}}"
+					],
+					"path": [
+						"auth",
+						"logout"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\n  'https://qauto2.forstudy.space/api/auth/logout' \\\n  -H 'accept: application/json'"
+			},
+			"response": [
+				{
+					"name": "LogOut",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{myUrl}}/auth/logout",
+							"host": [
+								"{{myUrl}}"
+							],
+							"path": [
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 21:30:24 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "15"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "remember_me=; Domain=.forstudy.space; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "sid=; Domain=.forstudy.space; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"f-VaSQ4oDUiZblZNAEkkN+sX+q3Sg\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\"\n}"
+				}
+			]
+		},
+		{
+			"name": "SignIn",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"email\": \"{{random_mail}}\",\n\n\"password\": \"{{New_Password}}\",\n\"remember\": false\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{myUrl}}auth/signin",
+					"host": [
+						"{{myUrl}}auth"
+					],
+					"path": [
+						"signin"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://qauto2.forstudy.space/api/auth/signin' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"email\": \"test@test.com\",\n  \"password\": \"Qwerty12345\",\n  \"remember\": false\n}'"
+			},
+			"response": [
+				{
+					"name": "SignIn",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n\"email\": \"{{random_mail}}\",\n\n\"password\": \"{{New_Password}}\",\n\"remember\": false\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myUrl}}auth/signin",
+							"host": [
+								"{{myUrl}}auth"
+							],
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 21:36:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "30"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "29"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1754948220"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"71-8uutm0cX8ZGWYkWeel2YASD8iPc\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "sid=s%3ARPNv4NO0We26m71JGM-nI3Ax9N9CP4h6.g2%2B%2Fnnc102Muyk7Yo2TOEDPut%2B2DHpeJ6PGhEvQ6uK4; Domain=.forstudy.space; Path=/; Expires=Tue, 12 Aug 2025 21:36:28 GMT"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"userId\": 115500,\n        \"photoFilename\": \"default-user.png\",\n        \"distanceUnits\": \"km\",\n        \"currency\": \"usd\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "CreateCar",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    var jsonData = pm.response.json();",
+							"pm.collectionVariables.set(\"car_id\", jsonData.data.id)"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"//let milage = pm.variables.replaceIn(\"{{$randomInt}}\")",
+							"let milage = Math.floor(Math.random() * (1000 - 201)) + 100;",
+							"",
+							"pm.collectionVariables.set(\"milage\", milage);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"carBrandId\": 1,\n  \"carModelId\": 1,\n  \"mileage\": {{milage}}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{myUrl}}cars",
+					"host": [
+						"{{myUrl}}cars"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://qauto2.forstudy.space/api/cars' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"carBrandId\": 1,\n  \"carModelId\": 1,\n  \"mileage\": 122\n}'"
+			},
+			"response": [
+				{
+					"name": "CreateCar",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"carBrandId\": 1,\n  \"carModelId\": 1,\n  \"mileage\": {{milage}}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myUrl}}cars",
+							"host": [
+								"{{myUrl}}cars"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Aug 2025 19:55:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "235"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"eb-psji1T2OK8WzTATyuJ3nr57pqQA\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"id\": 187097,\n        \"carBrandId\": 1,\n        \"carModelId\": 1,\n        \"initialMileage\": 690,\n        \"updatedMileageAt\": \"2025-08-11T19:55:21.192Z\",\n        \"carCreatedAt\": \"2025-08-11T19:55:21.192Z\",\n        \"mileage\": 690,\n        \"brand\": \"Audi\",\n        \"model\": \"TT\",\n        \"logo\": \"audi.png\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "AddExpenses",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"//let milage = pm.variables.replaceIn(\"{{$randomInt}}\")",
+							"//pm.collectionVariables.set(\"mileage\", milage);",
+							"//pm.collectionVariables.set(\"car_id\", 187230);",
+							"",
+							"let milage = Math.floor(Math.random() * (1000 - 201)) + 100;",
+							"pm.collectionVariables.set(\"milage\", milage);",
+							"pm.collectionVariables.set(\"car_id\", 187230); // залишаємо як є",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"carId\": {{car_id}},\n  \"reportedAt\": \"2025-08-12\",\n  \"mileage\": {{milage}},\n  \"liters\": 11,\n  \"totalCost\": 11,\n  \"forceMileage\": false\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{myUrl}}expenses",
+					"host": [
+						"{{myUrl}}expenses"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://qauto2.forstudy.space/api/expenses' \\\n  -H 'accept: application/json' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"carId\": 1,\n  \"reportedAt\": \"2021-05-17\",\n  \"mileage\": 111,\n  \"liters\": 11,\n  \"totalCost\": 11,\n  \"forceMileage\": false\n}'"
+			},
+			"response": [
+				{
+					"name": "AddExpenses",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"carId\": {{car_id}},\n  \"reportedAt\": \"2025-08-12\",\n  \"mileage\": {{milage}},\n  \"liters\": 11,\n  \"totalCost\": 11,\n  \"forceMileage\": false\n}\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myUrl}}expenses",
+							"host": [
+								"{{myUrl}}expenses"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 12 Aug 2025 13:10:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"76-SQHOKtD+XooZe7Dfp2wlbpXuVNE\""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"data\": {\n        \"carId\": 187230,\n        \"reportedAt\": \"2025-08-12\",\n        \"liters\": 11,\n        \"id\": 133429,\n        \"mileage\": 530,\n        \"totalCost\": 11\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{myUrl}}users",
+					"host": [
+						"{{myUrl}}users"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\n  'https://qauto2.forstudy.space/api/users' \\\n  -H 'accept: application/json'"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "random_mail",
+			"value": "Myrtle.MacGyver58@gmail.com"
+		},
+		{
+			"key": "password",
+			"value": "Qwerty12345"
+		},
+		{
+			"key": "password_new",
+			"value": ""
+		},
+		{
+			"key": "myUrl",
+			"value": "https://qauto2.forstudy.space/api/",
+			"type": "string"
+		},
+		{
+			"key": "milage",
+			"value": ""
+		},
+		{
+			"key": "car_id",
+			"value": ""
+		},
+		{
+			"key": "new_password",
+			"value": ""
+		},
+		{
+			"key": "newPassword",
+			"value": ""
+		},
+		{
+			"key": "New_password",
+			"value": ""
+		},
+		{
+			"key": "New_Password",
+			"value": ""
+		},
+		{
+			"key": "mileage",
+			"value": ""
+		}
+	]
+}
